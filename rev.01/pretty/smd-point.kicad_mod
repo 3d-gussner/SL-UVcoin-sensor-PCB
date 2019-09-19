@@ -1,0 +1,11 @@
+(module ok1hra:smd-point (layer F.Cu) (tedit 53DF8715)
+  (attr virtual)
+  (fp_text reference U$5 (at 0 -1.2) (layer F.SilkS) hide
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
+  )
+  (fp_text value TESTPOINTTESTPADSMD (at 0.1 1.5) (layer F.SilkS) hide
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+  )
+  (fp_circle (center 0 0) (end -0.8 0) (layer F.SilkS) (width 0.15))
+  (pad 1 smd circle (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
+)
